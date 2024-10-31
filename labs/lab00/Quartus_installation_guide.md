@@ -31,7 +31,7 @@ Al agregar la ruta de instalación de Quartus a la variable de entorno ```PATH``
 
 1. Busque el archivo ```.bashrc``` del sistema: 
 
-    El archivo ```.bashrc``` es esencial para personalizar y optimizar tu experiencia en la terminal al permitir configuraciones específicas del usuario, ejecutar comandos automáticamente al iniciar una sesión y facilitar el uso de herramientas mediante alias y funciones personalizadas.
+    El archivo ```.bashrc``` es esencial para personalizar y optimizar la experiencia en la terminal al permitir configuraciones específicas del usuario, ejecutar comandos automáticamente al iniciar una sesión y facilitar el uso de herramientas mediante alias y funciones personalizadas.
 
     Generalmente se encuentra en el directorio ```home``` del usuario. Para verlo desde el gestor de archivos, solo se necesita habilitar la visualización de archivos ocultos, o se puede abrir la carpeta ```home``` a través de un editor de código y allí debería verlo.
 
@@ -51,7 +51,7 @@ Al agregar la ruta de instalación de Quartus a la variable de entorno ```PATH``
     Reemplace ```user*``` con la correspondiente cuenta de usuario en su computador.
 
 
-3. Crea el link simbólico:
+3. Cree el link simbólico:
 
     El siguiente comando crea un link simbólico llamado ```quartus``` en el directorio ```/bin``` que apunta al ejecutable de Quartus ubicado en el directorio de instalación especificado. Esta configuración simplifica la ejecución de Quartus al permitir simplemente escribir ```quartus``` en la terminal desde cualquier ubicación.
 
@@ -67,7 +67,7 @@ Ahora podrá ejecutar la IDE Quartus utilizando el comando ```quartus``` en la t
 ### Descargar instalador
 
 * Descargar los archivos Questa*-Intel® FPGA Edition (includes Starter Edition) del siguiente [link](https://www.intel.com/content/www/us/en/software-kit/776289/questa-intel-fpgas-pro-edition-software-version-23-1.html). Se debe descarga tanto el archivo con extensión ```.run``` como la parte II que tiene extensión ```.qdz``` en el mismo directorio.
-* Tenga que la descarga de estos archivos tomará tiempo.
+* Tenga en cuenta que la descarga de estos archivos tomará tiempo.
 * Para el presente tutorial se descargó la versión 23.1.
 
 ###  Instalación
