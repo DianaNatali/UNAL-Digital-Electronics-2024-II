@@ -27,9 +27,7 @@
 
 ## Configuración de las variables de entorno
 
-Al agregar la ruta de instalación de Quartus a la variable de entorno ```PATH```, se define en dónde el sistema operativo puede encontrar el ejecutable de Quartus. Esto permite ejecutar el comando ```quartus``` desde cualquier ubicación en la terminal, simplificando el acceso a la herramienta
-
-Esto se puede hacer de la siguiente manera:
+Al agregar la ruta de instalación de Quartus a la variable de entorno ```PATH```, se define en dónde el sistema operativo puede encontrar el ejecutable de Quartus. Esto permite ejecutar el comando ```quartus``` desde cualquier ubicación en la terminal, simplificando el acceso a la herramienta. Esto se puede hacer de la siguiente manera:
 
 1. Busque el archivo ```.bashrc``` del sistema: 
 
