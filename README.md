@@ -4,7 +4,7 @@
 
 * ### [FPGA Design Software - Quartus (Para sintezis en FPGA Cyclone IV)](./labs/lab00/Quartus_installation_guide.md)
 
-* ### Herrmientas de simulación Open Source
+* ### [Herrmientas de simulación Open Source](./labs/lab00/simulation_tools.md)
 
 * ### Editores de código
 
