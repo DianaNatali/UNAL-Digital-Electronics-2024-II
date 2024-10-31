@@ -25,7 +25,7 @@
         ```
         Reemplace ```*```  con el nombre del archivo ```.run```.
 
-## Configure las variables de entorno
+## Configuración de las variables de entorno
 
 Al agregar la ruta de instalación de Quartus a la variable de entorno ```PATH```, se define en dónde el sistema operativo puede encontrar el ejecutable de Quartus. Esto permite ejecutar el comando ```quartus``` desde cualquier ubicación en la terminal, simplificando el acceso a la herramienta
 
@@ -83,7 +83,7 @@ Ahora podrá ejecutar la IDE Quartus utilizando el comando ```quartus``` en la t
 
 * Se abrirá el instalador (ver imagen).
 
-    ![questa](./pics/questa.jpeg) 
+    ![questa](/pics/questa.jpeg) 
 
 
     - Dar click en siguiente y seleccionar la opción ```Questa - Intel FPGA Starter Edition```.
@@ -114,38 +114,38 @@ Center (SSLC)](https://www.intel.com/content/www/us/en/secure/forms/fpga-sslc-re
 
 * Una vez realizados los anteriores pasos, se abrirá el siguiente portal:
 
-    ![intel](./pics/intel.jpeg) 
+    ![intel](/pics/intel.jpeg) 
 
     - Ingresar a la opción ```Sing up for Evaluation or No-Cost License```.
 
 
     - Seleccionar la opción ```Questa*-Intel® FPGA Starter``` (ver imagen) y dar click en siguiente.
 
-    ![intel2](./pics/intel2.jpeg) 
+    ![intel2](/pics/intel2.jpeg) 
 
     - Se abrirá una interfaz para generar la licencia (ver imagen).
 
-    ![intel3](./pics/intel3.jpeg) 
+    ![intel3](/pics/intel3.jpeg) 
 
     - Dar click en ```+New Computer```.
 
 
 - Diligenciar los campos requeridos:
-        - En  ```Primary NIC ID``` deben escribir el nombre de la cuenta de usuario de su pc.
+    - En  ```Primary NIC ID``` deben escribir el nombre de la cuenta de usuario de su pc.
         
-        - En ```License type``` seleccionar FIXED.
+    - En ```License type``` seleccionar FIXED.
 
-        - En ```Computer type``` seleccionar NIC ID.
+    - En ```Computer type``` seleccionar NIC ID.
 
-        - Para saber el  ```Primary Computer ID```:
+    - Para saber el  ```Primary Computer ID```:
 
-            En una terminal de Linux escribir el comando ```ifconfig```.
+        En una terminal de Linux escribir el comando ```ifconfig```.
 
-            El NIC ID corresponde al número de la mac del driver de wifi o ethernet, para wifi aparecerá en la opción ```wlp1s0``` junto a la palabra ```ether```.
+        El NIC ID corresponde al número de la mac del driver de wifi o ethernet, para wifi aparecerá en la opción ```wlp1s0``` junto a la palabra ```ether```.
 
-            Copiar todo el string que está separado por dos puntos ":", pero en la casilla ```Primary Computer ID``` borrarlos, es decir, sólo dejar caracteres alfanuméricos.
+        Copiar todo el string que está separado por dos puntos ":", pero en la casilla ```Primary Computer ID``` borrarlos, es decir, sólo dejar caracteres alfanuméricos.
 
-         - Dar click en ```save```, aceptar términos de uso y dar click en ```generar```.
+    - Dar click en ```save```, aceptar términos de uso y dar click en ```generar```.
 
     - Recibirán un correo con un archivo adjunto con extensión ```.dat```  correspondiente a la licencia.
 
